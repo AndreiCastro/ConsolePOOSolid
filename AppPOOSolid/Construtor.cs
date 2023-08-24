@@ -6,9 +6,12 @@ namespace AppPOOSolid
 {
     internal class Construtor
     {
-        public string _nome;
-        public int _idade;
-        public bool _sexo;
+        #region Atributos
+        public string nome;
+        public int idade;
+        public bool sexo;
+
+        #endregion Atributos
 
         /*
          Por padrão toda classe tem um metodo construtor que não tem nenhum parametro, ele nem visivel fica no código
@@ -19,20 +22,20 @@ namespace AppPOOSolid
 
         }
 
-        public Construtor(string nome, int idade, bool sexo)
+        public Construtor(string _nome, int _idade, bool _sexo)
         {
-            _nome = nome;
-            _idade = idade;
-            _sexo = sexo;
+            nome =  _nome;
+            idade = _idade;
+            sexo =  _sexo;
         }
 
         public void Identificar()
         {
             var sexoString = "Male";
-            if (!_sexo)
+            if (!sexo)
                 sexoString = "Famale";
 
-            Console.WriteLine($"Olá, prazer my name is: {_nome}, I have {_idade} years old, and my sexy is: {sexoString}\n");
+            Console.WriteLine($"Olá, prazer my name is: {nome}, I have {idade} years old, and my sexy is: {sexoString}\n");
         }
     }
 }

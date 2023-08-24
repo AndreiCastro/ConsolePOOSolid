@@ -6,7 +6,9 @@ namespace AppPOOSolid.ClassesHerenca
 {
     internal class ClasseDerivadaContaPoupanca : ClasseBaseConta
     {
+        #region Propriedades
         public double JurosMensais { get; set; }
+        #endregion Propriedades
 
         public ClasseDerivadaContaPoupanca(int numero, double saldo, double jurosMensais)
         {

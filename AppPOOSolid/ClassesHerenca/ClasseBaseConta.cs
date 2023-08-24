@@ -6,8 +6,10 @@ namespace AppPOOSolid.ClassesHerenca
 {
     internal class ClasseBaseConta
     {
+        #region Propriedades
         public int Numero { get; set; }
         public double Saldo { get; set; }
+        #endregion Propriedades
 
         protected virtual string GetSaldo()
         {

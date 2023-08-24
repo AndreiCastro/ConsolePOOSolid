@@ -6,9 +6,11 @@ namespace AppPOOSolid
 {
     internal class ArgumentosNomeados
     {
+        #region Propriedades
         public string Email { get; private set; }
         public string Assunto { get; private set; }
         public string CorpoEmail { get; private set; }
+        #endregion Propriedades
 
         public ArgumentosNomeados(string email, string assunto, string corpoEmail)
         {

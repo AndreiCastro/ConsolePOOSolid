@@ -24,9 +24,9 @@ namespace AppPOOSolid
              */
             var pessoa = new Construtor()
             {
-                _nome = "Andrei",
-                _idade = 31,
-                _sexo = true
+                nome = "Andrei",
+                idade = 31,
+                sexo = true
             };
             pessoa.Identificar();
 

@@ -10,9 +10,11 @@ namespace AppPOOSolid
     */
     internal class Encapsulamento
     {
+        #region Propriedades
         public int Id { get; private set; }
         public string Nome { get; private set; }
         public string Endereco { get; private set; }
+        #endregion Propriedades
 
         public Encapsulamento(int id, string nome, string endereco)
         {
