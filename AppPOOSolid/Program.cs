@@ -32,6 +32,16 @@ namespace AppPOOSolid
             pessoa.Identificar();
             Console.WriteLine("\n");
             #endregion Ctor
+
+            #region Encapsulamento
+            var exemplo = new Encapsulamento(-1, "", "");
+            exemplo.ExibirCW();
+
+            /*exemplo.Id = 10; 
+                Esse cod está errado, pois defini que ele somente pode ser acessado para leitura, {get} já o {set} está privado
+                Somente posso passar valores como parametro no construtor*/
+            Console.WriteLine("\n");
+            #endregion Encapsulamento
         }
     }
 }
