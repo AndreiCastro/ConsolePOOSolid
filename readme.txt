@@ -1,0 +1,1 @@
+Com Gitignore não subiu o arquivo texte.txt pois eu especifiquei para ele ser ingorado

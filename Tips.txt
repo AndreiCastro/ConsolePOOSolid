@@ -1,0 +1,2 @@
+Executar o projeto com Crtl + F5 o projeto é executado sem o modo debug (sem o breakpoint) e sua inicialização é mais rápida.
+

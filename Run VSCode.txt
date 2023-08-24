@@ -1,0 +1,12 @@
+Command in cmd:
+	Create new folder -> md FolderName
+	List folders -> dir 
+	Create new project -> dotnet new ProjectType
+	
+
+Para criar um projeto pelo VS Code, basta ir até a pasta onde deseja criar o projeto (Pode criar ela tbm no cmd).
+
+Depois faça o command dotnet new para saber listar todos os projetos que possa criar -> Exemplo dotnet new console
+
+Execute project -> dotnet run inside of folder of project
+
