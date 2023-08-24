@@ -19,7 +19,7 @@ namespace AppPOOSolid
 
         internal void ExibirCW()
         {
-            Console.WriteLine($"Email é: {Email}, com o assunto de: {Assunto} e o corpo de: {CorpoEmail} .");
+            Console.WriteLine($"Email é: {Email}, com o assunto de: {Assunto} e o corpo de: {CorpoEmail}.");
         }
     }
 }

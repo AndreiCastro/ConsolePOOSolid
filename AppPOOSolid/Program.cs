@@ -1,13 +1,16 @@
 ﻿using System;
 using AppPOOSolid.Utils;
+using AppPOOSolid.ClassesHerenca;
+
 namespace AppPOOSolid
 {
     internal class Program
     {
         /*Modificar de acesso:
-        Pulbic - Todos no projeto conseguem acessá-los
-        Internal - Somente as classe do projeto conseguem acessá-los
-        Private - Somente a classe consegue acessá-lo
+        Pulbic -    Todos no projeto conseguem acessá-los
+        Internal -  Somente as classe do projeto conseguem acessá-los
+        Private -   Somente a classe consegue acessá-lo
+        Protected - Classe derivada consegue acessar a clase base
         
         Isso vale para classe, atributos, pripriedades e etc..
         PS: Por default se não for especificado o modificar de acesso, ele é internal*/
@@ -30,7 +33,6 @@ namespace AppPOOSolid
             //Já aqui eu instancie a classe e usei o construtor que criei com os parametros, e estou passando eles.             
             pessoa = new Construtor("Mayara", 30, false);
             pessoa.Identificar();
-            Console.WriteLine("\n");
             #endregion Ctor
 
             #region Encapsulamento
@@ -40,7 +42,6 @@ namespace AppPOOSolid
             /*exemplo.Id = 10; 
                 Esse cod está errado, pois defini que ele somente pode ser acessado para leitura, {get} já o {set} está privado
                 Somente posso passar valores como parametro no construtor*/
-            Console.WriteLine("\n");
             #endregion Encapsulamento
 
             #region ArgumentosNomeados
@@ -62,16 +63,26 @@ namespace AppPOOSolid
             var requiredInstance = new MetodosStatico();
 
             Console.WriteLine($"A soma é: {MetodosStatico.Somar(2, 2)}");
-            Console.WriteLine($"A subtração é: {requiredInstance.Subtrair(2, 2)}");
-            Console.WriteLine("\n");
+            Console.WriteLine($"A subtração é: {requiredInstance.Subtrair(2, 2)}\n");            
             #endregion StaticMethod
 
             #region Metodo de extensão
             var nome = "andrei";
             var nome2 = "mayara";
 
-            Console.WriteLine(string.Format("{0} \n{1}",nome.FirstWordToUper(), nome2.FirstWordToUper()));
+            Console.WriteLine(string.Format("{0} \n{1}\n",nome.FirstWordToUper(), nome2.FirstWordToUper()));
             #endregion Metodo de extensão
+
+            #region Heranca
+            /*Na classe ClasseDerivadaContaPoupanca o metodo GetSaldo() é acessivel mesmo sendo protected pq essa classe
+             herda da classe ClasseBaseConta
+             Se o metodo de uma classe tiver virtual quer dizer que ele pode ser sobreescrito (override). igual está o metodo
+             GetSaldo da class ClasseBaseConta
+
+             PS: Sempre a clase base é executada 1º e depois a classe Derivada 
+             */
+            var contaPoupanca = new ClasseDerivadaContaPoupanca(1234, 99.99, 145.50);            
+            #endregion Heranca
         }
     }
 }

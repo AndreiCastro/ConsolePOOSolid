@@ -32,7 +32,7 @@ namespace AppPOOSolid
             if (!_sexo)
                 sexoString = "Famale";
 
-            Console.WriteLine($"Olá, prazer my name is: {_nome}, I have {_idade} years old, and my sexy is: {sexoString}");
+            Console.WriteLine($"Olá, prazer my name is: {_nome}, I have {_idade} years old, and my sexy is: {sexoString}\n");
         }
     }
 }

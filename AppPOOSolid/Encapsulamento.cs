@@ -34,7 +34,7 @@ namespace AppPOOSolid
         internal void ExibirCW()
         {
             if (Id != 0)
-                Console.WriteLine($"Id: {Id}, com nome de: {Nome} e o seu endereço é: {Endereco}");
+                Console.WriteLine($"Id: {Id}, com nome de: {Nome} e o seu endereço é: {Endereco} \n");
         }
     }
 }
