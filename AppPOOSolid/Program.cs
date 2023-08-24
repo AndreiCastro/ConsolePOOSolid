@@ -1,5 +1,5 @@
 ﻿using System;
-
+using AppPOOSolid.Utils;
 namespace AppPOOSolid
 {
     internal class Program
@@ -65,6 +65,13 @@ namespace AppPOOSolid
             Console.WriteLine($"A subtração é: {requiredInstance.Subtrair(2, 2)}");
             Console.WriteLine("\n");
             #endregion StaticMethod
+
+            #region Metodo de extensão
+            var nome = "andrei";
+            var nome2 = "mayara";
+
+            Console.WriteLine(string.Format("{0} \n{1}",nome.FirstWordToUper(), nome2.FirstWordToUper()));
+            #endregion Metodo de extensão
         }
     }
 }
