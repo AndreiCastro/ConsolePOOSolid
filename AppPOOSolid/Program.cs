@@ -55,6 +55,16 @@ namespace AppPOOSolid
             arg3.ExibirCW();
             Console.WriteLine("\n");
             #endregion ArgumentosNomeados
+
+            #region StaticMethod
+            /*No method somar consigo chama-lo sem precisar instanciar a class MetodosStaticos pois o metodo é static, já no Subtrair tenho
+             que instanciar a classe pra poder acessar o metodo porque ele não é static*/
+            var requiredInstance = new MetodosStatico();
+
+            Console.WriteLine($"A soma é: {MetodosStatico.Somar(2, 2)}");
+            Console.WriteLine($"A subtração é: {requiredInstance.Subtrair(2, 2)}");
+            Console.WriteLine("\n");
+            #endregion StaticMethod
         }
     }
 }
