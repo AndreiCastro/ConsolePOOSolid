@@ -20,9 +20,9 @@ namespace AppPOOSolid
             if (id < 1)
                 Console.WriteLine("Erro, id inválido");
             else if (nome.Length == 0)
-                throw new("Nome inválido");
+                Console.WriteLine("Nome, id inválido");
             else if (endereco.Length == 0)
-                throw new("Endereço inválido");
+                Console.WriteLine("Endereço inválido");
             else
             {
                 this.Id = id;

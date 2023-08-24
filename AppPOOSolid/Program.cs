@@ -19,7 +19,7 @@ namespace AppPOOSolid
              Nesse exemplo, usei o metodo construtor padrao e tive que informar os seus atributos pois estou usando 
              metodo sem paraemtros
              */
-            var pessoa = new Pessoa()
+            var pessoa = new Construtor()
             {
                 _nome = "Andrei",
                 _idade = 31,
@@ -28,7 +28,7 @@ namespace AppPOOSolid
             pessoa.Identificar();
 
             //Já aqui eu instancie a classe e usei o construtor que criei com os parametros, e estou passando eles.             
-            pessoa = new Pessoa("Mayara", 30, false);
+            pessoa = new Construtor("Mayara", 30, false);
             pessoa.Identificar();
             Console.WriteLine("\n");
             #endregion Ctor

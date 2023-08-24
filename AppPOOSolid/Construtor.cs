@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AppPOOSolid
 {
-    internal class Pessoa
+    internal class Construtor
     {
         public string _nome;
         public int _idade;
@@ -14,12 +14,12 @@ namespace AppPOOSolid
          Por padrão toda classe tem um metodo construtor que não tem nenhum parametro, ele nem visivel fica no código
          Uma classe pode ter mais de construtor, isso é a sobrecarga
         */
-        public Pessoa()
+        public Construtor()
         {
 
         }
 
-        public Pessoa(string nome, int idade, bool sexo)
+        public Construtor(string nome, int idade, bool sexo)
         {
             _nome = nome;
             _idade = idade;
