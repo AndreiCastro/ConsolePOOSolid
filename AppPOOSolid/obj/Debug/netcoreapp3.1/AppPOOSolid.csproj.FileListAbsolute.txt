@@ -1,0 +1,13 @@
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.exe
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.deps.json
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.runtimeconfig.json
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.runtimeconfig.dev.json
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.dll
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\bin\Debug\netcoreapp3.1\AppPOOSolid.pdb
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.AssemblyInfoInputs.cache
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.AssemblyInfo.cs
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.csproj.CoreCompileInputs.cache
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.dll
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.pdb
+C:\Users\andrei\source\repos\MyProjects\ConsolePOOSolid\AppPOOSolid\obj\Debug\netcoreapp3.1\AppPOOSolid.genruntimeconfig.cache
