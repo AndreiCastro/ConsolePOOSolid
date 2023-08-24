@@ -42,6 +42,19 @@ namespace AppPOOSolid
                 Somente posso passar valores como parametro no construtor*/
             Console.WriteLine("\n");
             #endregion Encapsulamento
+
+            #region ArgumentosNomeados
+            /*ArgumentosNomeados serve para vc definir o parametro mesmo não estando na ordem declarados.
+              a 1º chamada esta na ordem, ja a outras não e o resultado é o mesmo*/
+
+            var arg1 = new ArgumentosNomeados("EmailTeste", "AssuntoTeste", "CorpoEmailTeste");
+            var arg2 = new ArgumentosNomeados(assunto: "AssuntoTeste", corpoEmail: "CorpoEmailTeste", email: "EmailTeste");
+            var arg3 = new ArgumentosNomeados(corpoEmail: "CorpoEmailTeste", email: "EmailTeste", assunto: "AssuntoTeste");
+            arg1.ExibirCW();
+            arg2.ExibirCW();
+            arg3.ExibirCW();
+            Console.WriteLine("\n");
+            #endregion ArgumentosNomeados
         }
     }
 }
