@@ -1,6 +1,7 @@
 ﻿using System;
 using AppPOOSolid.Utils;
 using AppPOOSolid.ClassesHerenca;
+using System.Linq;
 
 namespace AppPOOSolid
 {
