@@ -46,7 +46,12 @@ namespace AppPOOSolid
 
             #region ArgumentosNomeados
             /*ArgumentosNomeados serve para vc definir o parametro mesmo não estando na ordem declarados.
-              a 1º chamada esta na ordem, ja a outras não e o resultado é o mesmo*/
+              a 1º chamada esta na ordem, ja a outras não e o resultado é o mesmo
+            
+            Argumento é quando vc passa o valor para a metodo, e parametro é quando este valor que o metodo recebe, ex:
+            ArgumentosNomeados("EmailTeste", "AssuntoTeste", "CorpoEmailTeste") -> Isso são argumentos, ja a metodo ArgumentosNomeados
+            dessa classe são os parametros
+             */
 
             var arg1 = new ArgumentosNomeados("EmailTeste", "AssuntoTeste", "CorpoEmailTeste");
             var arg2 = new ArgumentosNomeados(assunto: "AssuntoTeste", corpoEmail: "CorpoEmailTeste", email: "EmailTeste");
