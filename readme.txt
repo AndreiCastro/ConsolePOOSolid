@@ -1,1 +1,1 @@
-Com Gitignore não subiu o arquivo texte.txt pois eu especifiquei para ele ser ingorado
+Projeto feito para estudos de POO e conceitos SOLID
