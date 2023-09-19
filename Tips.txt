@@ -8,12 +8,21 @@ Modificador OVERRIDE: Quando tem esse modificador, é porque está sobreescreven
 Modificador READONLY: Somente leitura
 ===========================================================================================
 
-
-================== Modificar de acesso: =====================
+================================= Modificar de acesso: ====================================
 Pulbic -    Todos no projeto conseguem acessá-los
 Internal -  Somente as classe do projeto conseguem acessá-los
 Private -   Somente a classe consegue acessá-lo
 Protected - Classe derivada consegue acessar a clase base
         
 Isso vale para classe, atributos, pripriedades e etc.. PS: Por default se não for especificado o modificar de acesso, ele é internal
-==============================================================
+===========================================================================================
+
+==================================== 4 Pilares do POO: ====================================
+Abstração: Quando um classe tem seu(s) metodo abstrato. 
+        Ex: Classe Alugar existe um metodo Aluga (metodo abastrato pois pode alugar N coisas). Existem classe Carro, Barco, Avião que podem ser alugados
+        sendo assim eles vão herdar dessa classe abstrata
+
+Encapsulamento: Uma camda de seguração que são usadas nos getters e setters, que evita o acesso direto as propriedades e objtos classe
+Herança: Herdar metodos de outars classe.
+Polimosfismo: Alteração no metodo herdado da classe base. (Modificador Virtual e Override)
+===========================================================================================
