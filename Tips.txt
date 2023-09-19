@@ -1,2 +1,19 @@
-Executar o projeto com Crtl + F5 o projeto é executado sem o modo debug (sem o breakpoint) e sua inicialização é mais rápida.
+================== Modificar de Classe, Atributos, Metodos etc: =====================
+Modificador STATIC: Não precisa instanciar a classe para acessar os metodos dela.
+Modificador ABSTRACT: Esse classe não pode ser instanciada, ela precisa ser herdada para poder acessar seus metodos. É somente uma classe base de outras classe.
+Modificador SEALED: Esse classe não pode ser herdada. É usado esse modificador nos metodos, para impedir que os mesmos sejam modificado na classes filhas (derivada).
 
+Modificador VIRTUAL: Esse metodo pode ser sobreescrito quando tem o esse modificador
+Modificador OVERRIDE: Quando tem esse modificador, é porque está sobreescrevendo algum metodo
+Modificador READONLY: Somente leitura
+===========================================================================================
+
+
+================== Modificar de acesso: =====================
+Pulbic -    Todos no projeto conseguem acessá-los
+Internal -  Somente as classe do projeto conseguem acessá-los
+Private -   Somente a classe consegue acessá-lo
+Protected - Classe derivada consegue acessar a clase base
+        
+Isso vale para classe, atributos, pripriedades e etc.. PS: Por default se não for especificado o modificar de acesso, ele é internal
+==============================================================
