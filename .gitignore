@@ -15,3 +15,5 @@ teste.txt
 *.editorconfig
 
 *.sqlite
+
+.vs/VSWorkspaceState.json
