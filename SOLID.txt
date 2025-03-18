@@ -3,25 +3,34 @@ S.O.L.I.D
 
 S -> Single Responsability Principle (Princípio da Responsabilidade Única)
 	Uma classe deve ter um, e somente um, motivo para mudar, ter somente uma responsabilidade. 
-Ex: Em uma classe de enviar pedido deve ter apenas propriedades e métodos responsáveis por enviar/deletar um pedido. Se após enviar um pedido deve se registar um log e enviar e-mail pro cliente, isso deve ser quebrado em outras classes que possuam essas responsabilidades, aí na classe Pedido faz a chamada dos métodos de RegistarLog e EnviarEmail.
+	Ex: Em uma classe de enviar pedido deve ter apenas propriedades e métodos responsáveis por enviar/deletar um pedido. 
+	 Se após enviar um pedido deve se registar um log e enviar e-mail pro cliente, isso deve ser quebrado em outras classes que 
+	 possuam essas responsabilidades, aí na classe Pedido faz a chamada dos métodos de RegistarLog e EnviarEmail.
 
 
 O -> Open/Closed Principle (Princípio do Aberto/Fechado)
-	Deve ser capaz de estender um comportamento de uma classe sem a necessidade                   de modificá-la. 
-Ex: Em uma classe Pedido tem o método de Desconto com a lógica para desconto para 2 tipo ClienteEspecial, ClienteFideldiade e temos que add um CllenteVip. Sendo assim o correto seria na classe Pedido ter o método de Desconto como virtual (que pode ser override) e criar novas classes para cada tipo de cliente com o mesmo método de Desconto sendo override para sobrescrever o método Desconto da classe pedido. 
-Nessa lógica, não importa se no futuro existam mais outros tipos de clientes, basta apenas criar novas classes com método override de Desconto.
+	Deve ser capaz de estender um comportamento de uma classe sem a necessidade de modificá-la. 
+	Ex: Em uma classe Pedido tem o método de Desconto com a lógica para desconto para 2 tipo ClienteEspecial, ClienteFideldiade 
+	 e temos que add um CllenteVip. Sendo assim o correto seria na classe Pedido ter o método de Desconto como virtual 
+	 (que pode ser override) e criar novas classes para cada tipo de cliente com o mesmo método de Desconto sendo override para 
+	 sobrescrever o método Desconto da classe pedido. 
+	Nessa lógica, não importa se no futuro existam mais outros tipos de clientes, basta apenas criar novas classes com método override de Desconto.
 
 
 L -> Liskov Substitution Principle (Princípio da Substituição de Liskov)
 	As classes derivadas (classe Filha) devem ser substituíveis por suas classes bases (classe Pai).
-Ex: Classe Base Passaro tem os métodos BotarOvo e Voar, as classes Derivadas Aguia e Pinguim não devem herdar da classe Passaro, pois Pinguim não voa. O correto seria criar uma 3 classe PassaroVoa passando o método Voar da classe Passaro para ela, e a classe PassaroVoa herda da classe Passaro. A classe Aguia herda de PassaroVoa e na classe Pinguim herda Passaro. Porque assim a classe Aguia herda de PassaroVoa que herda da classe Passaro, e a classe Pinguim somente herda de Passaro, pois não tem o método Voar.
+	Ex: Classe Base Passaro tem os métodos BotarOvo e Voar, as classes Derivadas Aguia e Pinguim não devem herdar da classe Passaro, 
+	 pois Pinguim não voa. O correto seria criar uma 3 classe PassaroVoa passando o método Voar da classe Passaro para ela, e a 
+	 classe PassaroVoa herda da classe Passaro. A classe Aguia herda de PassaroVoa e na classe Pinguim herda Passaro. Porque assim a 
+	 classe Aguia herda de PassaroVoa que herda da classe Passaro, e a classe Pinguim somente herda de Passaro, pois não tem o método Voar.
 
 I -> Interface Segregation Principle (Princípio da Segregação de Interfaces)
 	Muitas interfaces específicas são melhores do que uma interface geral.
-	Ex: Mesmo exemplo acima da classe Passaro, mas ao invés de ser classe é em interfaces. E quando a classe efetivamente for usar as interfaces, pode herdar mais de uma interface por classe (isso é representado como Class : Interface, Interface)
+	Ex: Mesmo exemplo acima da classe Passaro, mas ao invés de ser classe é em interfaces. E quando a classe efetivamente for usar as 
+	interfaces, pode herdar mais de uma interface por classe (isso é representado como Class : Interface, Interface)
 
 D -> Dependecy Inversion Principle (Princípio da inversão de dependência)
-Dependa de abstrações e não de implementações. 
+	Dependa de abstrações e não de implementações. 
 
 
 

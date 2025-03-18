@@ -1,11 +1,13 @@
 ================== Modificar de Classe, Atributos, Metodos etc: =====================
-Modificador STATIC: Não precisa instanciar a classe para acessar os metodos dela.
-Modificador ABSTRACT: Esse classe não pode ser instanciada, ela precisa ser herdada para poder acessar seus metodos. É somente uma classe base de outras classe.
-Modificador SEALED: Esse classe não pode ser herdada. É usado esse modificador nos metodos, para impedir que os mesmos sejam modificado na classes filhas (derivada).
+- Modificador STATIC: Não precisa instanciar a classe para acessar os metodos dela.
+- Modificador ABSTRACT: Esse classe não pode ser instanciada, ela precisa ser herdada para poder acessar seus metodos. 
+                        É somente uma classe base de outras classe.
+- Modificador SEALED: Esse classe não pode ser herdada. É usado esse modificador nos metodos, para impedir que os mesmos sejam modificado
+                        na classes filhas (derivada).
 
-Modificador VIRTUAL: Esse metodo pode ser sobreescrito quando tem o esse modificador
-Modificador OVERRIDE: Quando tem esse modificador, é porque está sobreescrevendo algum metodo
-Modificador READONLY: Somente leitura
+- Modificador VIRTUAL: Esse metodo pode ser sobreescrito quando tem o esse modificador
+- Modificador OVERRIDE: Quando tem esse modificador, é porque está sobreescrevendo algum metodo
+- Modificador READONLY: Somente leitura
 ===========================================================================================
 
 ================================= Modificar de acesso: ====================================
@@ -19,8 +21,8 @@ Isso vale para classe, atributos, pripriedades e etc.. PS: Por default se não f
 
 ==================================== 4 Pilares do POO: ====================================
 Abstração: Quando um classe tem seu(s) metodo abstrato. 
-        Ex: Classe Alugar existe um metodo Aluga (metodo abastrato pois pode alugar N coisas). Existem classe Carro, Barco, Avião que podem ser alugados
-        sendo assim eles vão herdar dessa classe abstrata
+        Ex: Classe Alugar existe um metodo Aluga (metodo abastrato pois pode alugar N coisas). Existem classe Carro, Barco, Avião q
+        ue podem ser alugados sendo assim eles vão herdar dessa classe abstrata
 
 Encapsulamento: Uma camda de seguração que são usadas nos getters e setters, que evita o acesso direto as propriedades e objtos classe
 Herança: Herdar metodos de outars classe.

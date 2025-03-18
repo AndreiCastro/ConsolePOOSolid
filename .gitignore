@@ -1,1 +1,17 @@
 teste.txt
+
+*.vsidx
+
+*.suo
+
+*.wsuo
+
+*.testlog
+
+*.manifest
+
+*.cache
+
+*.editorconfig
+
+*.sqlite
